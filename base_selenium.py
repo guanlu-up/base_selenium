@@ -231,7 +231,7 @@ class BaseChrome(object):
         self.driver.execute_script(f'window.open("{url}")')
 
     def is_alert_loaded(self, timeout=5):
-        """检测当前
+        """检测当前页面中是否弹出alert弹窗
         :param timeout: 等待超时时间
         :return: Bool
         """
